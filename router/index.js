@@ -42,6 +42,9 @@ router.get('/process',(req,res)=>{
 router.get('/newUi',(req,res)=>{
     res.render('newUi');
 })
+router.get('/card',(req,res)=>{
+    res.render('card');
+})
 
 
 module.exports=router;
